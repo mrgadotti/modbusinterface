@@ -48,24 +48,23 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.checkBox33 = new System.Windows.Forms.CheckBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -73,9 +72,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 24);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label1.Location = new System.Drawing.Point(14, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 17);
+            this.label1.Size = new System.Drawing.Size(173, 20);
             this.label1.TabIndex = 22;
             this.label1.Text = "Endereço IP da placa:";
             // 
@@ -347,30 +347,31 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(164, 21);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.textBox1.Location = new System.Drawing.Point(186, 21);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(113, 22);
+            this.textBox1.Size = new System.Drawing.Size(157, 27);
             this.textBox1.TabIndex = 24;
             this.textBox1.Text = "192.168.255.1";
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button16);
+            this.groupBox2.Controls.Add(this.button15);
+            this.groupBox2.Controls.Add(this.button14);
+            this.groupBox2.Controls.Add(this.button13);
+            this.groupBox2.Controls.Add(this.button12);
+            this.groupBox2.Controls.Add(this.button11);
+            this.groupBox2.Controls.Add(this.button10);
+            this.groupBox2.Controls.Add(this.button9);
+            this.groupBox2.Controls.Add(this.button8);
+            this.groupBox2.Controls.Add(this.button7);
+            this.groupBox2.Controls.Add(this.button6);
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.checkBox17);
-            this.groupBox2.Controls.Add(this.checkBox18);
-            this.groupBox2.Controls.Add(this.checkBox19);
-            this.groupBox2.Controls.Add(this.checkBox20);
-            this.groupBox2.Controls.Add(this.checkBox21);
-            this.groupBox2.Controls.Add(this.checkBox22);
-            this.groupBox2.Controls.Add(this.checkBox23);
-            this.groupBox2.Controls.Add(this.checkBox24);
-            this.groupBox2.Controls.Add(this.checkBox25);
-            this.groupBox2.Controls.Add(this.checkBox26);
-            this.groupBox2.Controls.Add(this.checkBox27);
-            this.groupBox2.Controls.Add(this.checkBox28);
-            this.groupBox2.Controls.Add(this.checkBox29);
-            this.groupBox2.Controls.Add(this.checkBox30);
-            this.groupBox2.Controls.Add(this.checkBox31);
             this.groupBox2.Location = new System.Drawing.Point(237, 57);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(221, 322);
@@ -378,237 +379,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Entradas";
             // 
-            // checkBox17
+            // button1
             // 
-            this.checkBox17.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(112, 282);
-            this.checkBox17.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox17.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(100, 30);
-            this.checkBox17.TabIndex = 39;
-            this.checkBox17.Text = "Saída 16";
-            this.checkBox17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(112, 246);
-            this.checkBox18.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox18.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(100, 30);
-            this.checkBox18.TabIndex = 38;
-            this.checkBox18.Text = "Saída 15";
-            this.checkBox18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(112, 210);
-            this.checkBox19.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox19.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(100, 30);
-            this.checkBox19.TabIndex = 37;
-            this.checkBox19.Text = "Saída 14";
-            this.checkBox19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(112, 174);
-            this.checkBox20.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox20.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(100, 30);
-            this.checkBox20.TabIndex = 36;
-            this.checkBox20.Text = "Saída 13";
-            this.checkBox20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(112, 138);
-            this.checkBox21.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox21.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(100, 30);
-            this.checkBox21.TabIndex = 35;
-            this.checkBox21.Text = "Saída 12";
-            this.checkBox21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(112, 102);
-            this.checkBox22.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox22.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(100, 30);
-            this.checkBox22.TabIndex = 34;
-            this.checkBox22.Text = "Saída 11";
-            this.checkBox22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox23.Location = new System.Drawing.Point(112, 66);
-            this.checkBox23.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox23.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(100, 30);
-            this.checkBox23.TabIndex = 33;
-            this.checkBox23.Text = "Saída 10";
-            this.checkBox23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(112, 30);
-            this.checkBox24.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox24.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(100, 30);
-            this.checkBox24.TabIndex = 32;
-            this.checkBox24.Text = "Saída 9";
-            this.checkBox24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox25.Location = new System.Drawing.Point(6, 282);
-            this.checkBox25.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox25.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(100, 30);
-            this.checkBox25.TabIndex = 31;
-            this.checkBox25.Text = "Saída 8";
-            this.checkBox25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox26.Location = new System.Drawing.Point(6, 246);
-            this.checkBox26.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox26.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(100, 30);
-            this.checkBox26.TabIndex = 30;
-            this.checkBox26.Text = "Saída 7";
-            this.checkBox26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox27.Location = new System.Drawing.Point(6, 210);
-            this.checkBox27.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox27.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(100, 30);
-            this.checkBox27.TabIndex = 29;
-            this.checkBox27.Text = "Saída 6";
-            this.checkBox27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox28.Location = new System.Drawing.Point(6, 174);
-            this.checkBox28.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox28.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(100, 30);
-            this.checkBox28.TabIndex = 28;
-            this.checkBox28.Text = "Saída 5";
-            this.checkBox28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox29.Location = new System.Drawing.Point(6, 138);
-            this.checkBox29.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox29.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(100, 30);
-            this.checkBox29.TabIndex = 27;
-            this.checkBox29.Text = "Saída 4";
-            this.checkBox29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox30.Location = new System.Drawing.Point(6, 102);
-            this.checkBox30.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox30.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(100, 30);
-            this.checkBox30.TabIndex = 26;
-            this.checkBox30.Text = "Saída 3";
-            this.checkBox30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // checkBox31
-            // 
-            this.checkBox31.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox31.Location = new System.Drawing.Point(6, 66);
-            this.checkBox31.MaximumSize = new System.Drawing.Size(100, 30);
-            this.checkBox31.MinimumSize = new System.Drawing.Size(100, 30);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(100, 30);
-            this.checkBox31.TabIndex = 25;
-            this.checkBox31.Text = "Saída 2";
-            this.checkBox31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox31.UseVisualStyleBackColor = true;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button1.Location = new System.Drawing.Point(6, 30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 30);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "Entrada 1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // checkBox33
             // 
             this.checkBox33.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox33.AutoSize = true;
             this.checkBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox33.Location = new System.Drawing.Point(292, 16);
+            this.checkBox33.Location = new System.Drawing.Point(349, 19);
             this.checkBox33.MaximumSize = new System.Drawing.Size(100, 30);
             this.checkBox33.MinimumSize = new System.Drawing.Size(100, 30);
             this.checkBox33.Name = "checkBox33";
@@ -617,44 +404,191 @@
             this.checkBox33.Text = "Conectar";
             this.checkBox33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox33.UseVisualStyleBackColor = true;
+            this.checkBox33.CheckedChanged += new System.EventHandler(this.checkBox33_CheckedChanged);
             // 
-            // richTextBox1
+            // button2
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 385);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(446, 228);
-            this.richTextBox1.TabIndex = 41;
-            this.richTextBox1.Text = "";
+            this.button2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button2.Location = new System.Drawing.Point(6, 66);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 30);
+            this.button2.TabIndex = 41;
+            this.button2.Text = "Entrada 2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // button3
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.button1.Enabled = false;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
-            this.button1.Location = new System.Drawing.Point(6, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 30);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button3.Location = new System.Drawing.Point(6, 102);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 30);
+            this.button3.TabIndex = 42;
+            this.button3.Text = "Entrada 3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button4.Location = new System.Drawing.Point(6, 138);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(100, 30);
+            this.button4.TabIndex = 43;
+            this.button4.Text = "Entrada 4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button5.Location = new System.Drawing.Point(6, 174);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(100, 30);
+            this.button5.TabIndex = 44;
+            this.button5.Text = "Entrada 5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button6.Location = new System.Drawing.Point(6, 210);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(100, 30);
+            this.button6.TabIndex = 45;
+            this.button6.Text = "Entrada 6";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button7.Location = new System.Drawing.Point(6, 246);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(100, 30);
+            this.button7.TabIndex = 46;
+            this.button7.Text = "Entrada 7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button8.Location = new System.Drawing.Point(6, 282);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(100, 30);
+            this.button8.TabIndex = 47;
+            this.button8.Text = "Entrada 8";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button9.Location = new System.Drawing.Point(112, 30);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(100, 30);
+            this.button9.TabIndex = 48;
+            this.button9.Text = "Entrada 9";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button10.Location = new System.Drawing.Point(112, 66);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(100, 30);
+            this.button10.TabIndex = 49;
+            this.button10.Text = "Entrada10";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button11.Location = new System.Drawing.Point(112, 102);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(100, 30);
+            this.button11.TabIndex = 50;
+            this.button11.Text = "Entrada 11";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button12.Location = new System.Drawing.Point(112, 138);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(100, 30);
+            this.button12.TabIndex = 51;
+            this.button12.Text = "Entrada 12";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button13.Location = new System.Drawing.Point(112, 174);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(100, 30);
+            this.button13.TabIndex = 52;
+            this.button13.Text = "Entrada 13";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button14.Location = new System.Drawing.Point(112, 210);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(100, 30);
+            this.button14.TabIndex = 53;
+            this.button14.Text = "Entrada 14";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button15.Location = new System.Drawing.Point(112, 246);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(100, 30);
+            this.button15.TabIndex = 54;
+            this.button15.Text = "Entrada 15";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.button16.Location = new System.Drawing.Point(112, 282);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(100, 30);
+            this.button16.TabIndex = 55;
+            this.button16.Text = "Entrada 16";
+            this.button16.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 625);
-            this.Controls.Add(this.richTextBox1);
+            this.ClientSize = new System.Drawing.Size(470, 391);
             this.Controls.Add(this.checkBox33);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(488, 438);
+            this.MinimumSize = new System.Drawing.Size(488, 438);
             this.Name = "Form1";
             this.Text = "LuxShui";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -681,24 +615,23 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox30;
-        private System.Windows.Forms.CheckBox checkBox31;
         private System.Windows.Forms.CheckBox checkBox33;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }
 
