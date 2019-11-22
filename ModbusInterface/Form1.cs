@@ -9,6 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EasyModbus;
 
+/*
+ * References:
+ * http://easymodbustcp.net/codesampleseasymodbustcp-net
+ * https://sourceforge.net/projects/easymodbustcp/
+ */
+
 namespace ModbusInterface
 {
     public partial class Form1 : Form
