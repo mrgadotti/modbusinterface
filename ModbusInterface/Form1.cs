@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EasyModbus;
 
 namespace ModbusInterface
 {
     public partial class Form1 : Form
     {
+        ModbusClient modbusClient;
+
         public Form1()
         {
             InitializeComponent();
@@ -33,31 +36,72 @@ namespace ModbusInterface
             button16.BackColor = Color.Red;
 
         }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        // Write single coil and check connection
+        private void WriteSingleCoilValue(int address, bool value)
         {
-            Console.WriteLine("Checkbox");
-            Console.WriteLine(checkBox1.Checked);
-            if (checkBox1.Checked)
+            try
             {
-                //checkBox1.BackColor = Color.LightGreen;
-                button1.BackColor = Color.LightGreen;
+                modbusClient.WriteSingleCoil(address, value);
+            }
+            catch (EasyModbus.Exceptions.ConnectionException ex)
+            {
+                Console.WriteLine(ex);
+                MessageBox.Show("Erro de conexão com a placa Modbus", "Erro de conexão", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                modbusClient.Disconnect();
+                groupBox1.Enabled = false;
+                groupBox2.Enabled = false;
+                btConnect.Checked = false;
+                textBox1.Enabled = true;
+            }
+        }
+        // Create connection
+        private void btConnect_CheckedChanged(object sender, EventArgs e)
+        {
+            if (btConnect.Checked)
+            {
+                textBox1.Enabled = false;
+                try
+                {
+                    Console.WriteLine("Conecting to: " + textBox1.Text);
+                    modbusClient = new ModbusClient(textBox1.Text, 502);
+                    groupBox1.Enabled = true;
+                    groupBox2.Enabled = true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex);
+                }
             }
             else
             {
-                //checkBox1.BackColor = Color.Red;
-                button1.BackColor = Color.Red;
+                modbusClient.Disconnect();
+                Console.WriteLine("Disconecting...");
+                groupBox1.Enabled = false;
+                groupBox2.Enabled = false;
+                textBox1.Enabled = true;
+            }
+        }
+        private void btOut1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (btOut1.Checked)
+            {
+                WriteSingleCoilValue(1, true);
+            }
+            else
+            {
+                WriteSingleCoilValue(1, true);
             }
         }
 
-        private void checkBox33_CheckedChanged(object sender, EventArgs e)
+        private void btOut2_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox33.Checked)
+            if (btOut1.Checked)
             {
-                textBox1.Enabled = false;
-            }else
+                WriteSingleCoilValue(2, true);
+            }
+            else
             {
-                textBox1.Enabled = true;
+                WriteSingleCoilValue(2, true);
             }
         }
     }
