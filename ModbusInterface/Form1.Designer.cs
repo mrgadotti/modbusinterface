@@ -119,6 +119,7 @@
             this.btOut16.Text = "Saída 16";
             this.btOut16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut16.UseVisualStyleBackColor = true;
+            this.btOut16.CheckedChanged += new System.EventHandler(this.btOut16_CheckedChanged);
             // 
             // btOut15
             // 
@@ -134,6 +135,7 @@
             this.btOut15.Text = "Saída 15";
             this.btOut15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut15.UseVisualStyleBackColor = true;
+            this.btOut15.CheckedChanged += new System.EventHandler(this.btOut15_CheckedChanged);
             // 
             // btOut14
             // 
@@ -149,6 +151,7 @@
             this.btOut14.Text = "Saída 14";
             this.btOut14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut14.UseVisualStyleBackColor = true;
+            this.btOut14.CheckedChanged += new System.EventHandler(this.btOut14_CheckedChanged);
             // 
             // btOut13
             // 
@@ -164,6 +167,7 @@
             this.btOut13.Text = "Saída 13";
             this.btOut13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut13.UseVisualStyleBackColor = true;
+            this.btOut13.CheckedChanged += new System.EventHandler(this.btOut13_CheckedChanged);
             // 
             // btOut12
             // 
@@ -179,6 +183,7 @@
             this.btOut12.Text = "Saída 12";
             this.btOut12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut12.UseVisualStyleBackColor = true;
+            this.btOut12.CheckedChanged += new System.EventHandler(this.btOut12_CheckedChanged);
             // 
             // btOut11
             // 
@@ -194,6 +199,7 @@
             this.btOut11.Text = "Saída 11";
             this.btOut11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut11.UseVisualStyleBackColor = true;
+            this.btOut11.CheckedChanged += new System.EventHandler(this.btOut11_CheckedChanged);
             // 
             // btOut10
             // 
@@ -209,6 +215,7 @@
             this.btOut10.Text = "Saída 10";
             this.btOut10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut10.UseVisualStyleBackColor = true;
+            this.btOut10.CheckedChanged += new System.EventHandler(this.btOut10_CheckedChanged);
             // 
             // btOut9
             // 
@@ -224,6 +231,7 @@
             this.btOut9.Text = "Saída 9";
             this.btOut9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut9.UseVisualStyleBackColor = true;
+            this.btOut9.CheckedChanged += new System.EventHandler(this.btOut9_CheckedChanged);
             // 
             // btOut8
             // 
@@ -239,6 +247,7 @@
             this.btOut8.Text = "Saída 8";
             this.btOut8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut8.UseVisualStyleBackColor = true;
+            this.btOut8.CheckedChanged += new System.EventHandler(this.btOut8_CheckedChanged);
             // 
             // btOut7
             // 
@@ -254,6 +263,7 @@
             this.btOut7.Text = "Saída 7";
             this.btOut7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut7.UseVisualStyleBackColor = true;
+            this.btOut7.CheckedChanged += new System.EventHandler(this.btOut7_CheckedChanged);
             // 
             // btOut6
             // 
@@ -269,6 +279,7 @@
             this.btOut6.Text = "Saída 6";
             this.btOut6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut6.UseVisualStyleBackColor = true;
+            this.btOut6.CheckedChanged += new System.EventHandler(this.btOut6_CheckedChanged);
             // 
             // btOut5
             // 
@@ -284,6 +295,7 @@
             this.btOut5.Text = "Saída 5";
             this.btOut5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut5.UseVisualStyleBackColor = true;
+            this.btOut5.CheckedChanged += new System.EventHandler(this.btOut5_CheckedChanged);
             // 
             // btOut4
             // 
@@ -299,6 +311,7 @@
             this.btOut4.Text = "Saída 4";
             this.btOut4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut4.UseVisualStyleBackColor = true;
+            this.btOut4.CheckedChanged += new System.EventHandler(this.btOut4_CheckedChanged);
             // 
             // btOut3
             // 
@@ -314,6 +327,7 @@
             this.btOut3.Text = "Saída 3";
             this.btOut3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btOut3.UseVisualStyleBackColor = true;
+            this.btOut3.CheckedChanged += new System.EventHandler(this.btOut3_CheckedChanged);
             // 
             // btOut2
             // 
