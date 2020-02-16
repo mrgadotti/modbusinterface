@@ -119,11 +119,11 @@ namespace ModbusInterface
         {
             if (btOut1.Checked)
             {
-                WriteSingleCoilValue(1, true);
+                WriteSingleCoilValue(2, true);
             }
             else
             {
-                WriteSingleCoilValue(1, true);
+                WriteSingleCoilValue(2, true);
             }
         }
 
@@ -131,11 +131,11 @@ namespace ModbusInterface
         {
             if (btOut1.Checked)
             {
-                WriteSingleCoilValue(2, true);
+                WriteSingleCoilValue(3, true);
             }
             else
             {
-                WriteSingleCoilValue(2, true);
+                WriteSingleCoilValue(3, true);
             }
         }
 
@@ -143,11 +143,11 @@ namespace ModbusInterface
         {
             if (btOut3.Checked)
             {
-                WriteSingleCoilValue(3, true);
+                WriteSingleCoilValue(4, true);
             }
             else
             {
-                WriteSingleCoilValue(3, true);
+                WriteSingleCoilValue(4, true);
             }
 
         }
@@ -156,11 +156,11 @@ namespace ModbusInterface
         {
             if (btOut4.Checked)
             {
-                WriteSingleCoilValue(4, true);
+                WriteSingleCoilValue(5, true);
             }
             else
             {
-                WriteSingleCoilValue(4, true);
+                WriteSingleCoilValue(5, true);
             }
         }
 
@@ -168,11 +168,11 @@ namespace ModbusInterface
         {
             if (btOut5.Checked)
             {
-                WriteSingleCoilValue(5, true);
+                WriteSingleCoilValue(6, true);
             }
             else
             {
-                WriteSingleCoilValue(5, true);
+                WriteSingleCoilValue(6, true);
             }
         }
 
@@ -180,11 +180,11 @@ namespace ModbusInterface
         {
             if (btOut6.Checked)
             {
-                WriteSingleCoilValue(6, true);
+                WriteSingleCoilValue(7, true);
             }
             else
             {
-                WriteSingleCoilValue(6, true);
+                WriteSingleCoilValue(7, true);
             }
         }
 
@@ -192,11 +192,11 @@ namespace ModbusInterface
         {
             if (btOut7.Checked)
             {
-                WriteSingleCoilValue(7, true);
+                WriteSingleCoilValue(8, true);
             }
             else
             {
-                WriteSingleCoilValue(7, true);
+                WriteSingleCoilValue(8, true);
             }
         }
 
@@ -204,11 +204,11 @@ namespace ModbusInterface
         {
             if (btOut8.Checked)
             {
-                WriteSingleCoilValue(8, true);
+                WriteSingleCoilValue(9, true);
             }
             else
             {
-                WriteSingleCoilValue(8, false);
+                WriteSingleCoilValue(9, false);
             }
         }
 
@@ -216,11 +216,11 @@ namespace ModbusInterface
         {
             if (btOut9.Checked)
             {
-                WriteSingleCoilValue(9, true);
+                WriteSingleCoilValue(10, true);
             }
             else
             {
-                WriteSingleCoilValue(9, true);
+                WriteSingleCoilValue(10, true);
             }
         }
 
@@ -228,11 +228,11 @@ namespace ModbusInterface
         {
             if (btOut10.Checked)
             {
-                WriteSingleCoilValue(10, true);
+                WriteSingleCoilValue(11, true);
             }
             else
             {
-                WriteSingleCoilValue(10, true);
+                WriteSingleCoilValue(11, true);
             }
         }
 
@@ -240,11 +240,11 @@ namespace ModbusInterface
         {
             if (btOut11.Checked)
             {
-                WriteSingleCoilValue(11, true);
+                WriteSingleCoilValue(12, true);
             }
             else
             {
-                WriteSingleCoilValue(11, true);
+                WriteSingleCoilValue(12, true);
             }
         }
 
@@ -252,11 +252,11 @@ namespace ModbusInterface
         {
             if (btOut12.Checked)
             {
-                WriteSingleCoilValue(12, true);
+                WriteSingleCoilValue(13, true);
             }
             else
             {
-                WriteSingleCoilValue(12, true);
+                WriteSingleCoilValue(13, true);
             }
         }
 
@@ -264,11 +264,11 @@ namespace ModbusInterface
         {
             if (btOut13.Checked)
             {
-                WriteSingleCoilValue(13, true);
+                WriteSingleCoilValue(14, true);
             }
             else
             {
-                WriteSingleCoilValue(13, true);
+                WriteSingleCoilValue(14, true);
             }
         }
 
@@ -276,11 +276,11 @@ namespace ModbusInterface
         {
             if (btOut14.Checked)
             {
-                WriteSingleCoilValue(14, true);
+                WriteSingleCoilValue(15, true);
             }
             else
             {
-                WriteSingleCoilValue(14, true);
+                WriteSingleCoilValue(15, true);
             }
         }
 
@@ -288,11 +288,11 @@ namespace ModbusInterface
         {
             if (btOut15.Checked)
             {
-                WriteSingleCoilValue(15, true);
+                WriteSingleCoilValue(16, true);
             }
             else
             {
-                WriteSingleCoilValue(15, true);
+                WriteSingleCoilValue(16, true);
             }
         }
 
@@ -300,11 +300,11 @@ namespace ModbusInterface
         {
             if (btOut16.Checked)
             {
-                WriteSingleCoilValue(16, true);
+                WriteSingleCoilValue(17, true);
             }
             else
             {
-                WriteSingleCoilValue(16, true);
+                WriteSingleCoilValue(17, true);
             }
         }
         /*
